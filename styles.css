@@ -27,6 +27,10 @@ body{
     color: var(--neutral-white)
 }
 
+main{
+    display: contents;
+}
+
 .card{
     width: clamp(18.8rem, calc(100% - 3rem), 21rem);
     background-color: var(--neutral-very-dark-blue-card);
